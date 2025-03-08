@@ -103,6 +103,10 @@ a{
     color:rgb(45, 45, 45)
 }
 
+iframe{
+    border-radius: 7px;
+}
+
 @media screen and (max-width: 480px){
     body {
       overflow-y:hidden;
@@ -133,16 +137,16 @@ a{
 }
 
 /*iPhone 16*/
-@media screen and (min-width: 800px){
+@media screen and (max-width: 852px){
     body {
-    overflow-x: visible;
-      overflow-y:visible;
+      overflow-y:hidden;
+      overflow-x: hidden;
     }
 
     .video, iframe{
         position:fixed;
         top:350px;
-        left:37.5px;
+        left:38px;
         min-width:10%;
         min-height:10%;
         width:320px;
