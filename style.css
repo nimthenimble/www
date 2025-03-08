@@ -105,8 +105,8 @@ a{
 
 @media screen and (max-width: 480px){
     body {
-      overflow-y:visible;
-      overflow-x: visible;
+      overflow-y:hidden;
+      overflow-x: hidden;
     }
 
     .data{
@@ -135,8 +135,8 @@ a{
 /*iPhone 16*/
 @media screen and (max-width: 852px){
     body {
-      overflow-y:hidden;
-      overflow-x: hidden;
+      overflow-y:visible;
+      overflow-x: visible;
     }
 
     .video, iframe{
