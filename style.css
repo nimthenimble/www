@@ -131,3 +131,29 @@ a{
       font-size:10px;
     }
 }
+
+/*iPhone 16*/
+@media screen and (max-width: 852px){
+    body {
+      overflow-y:hidden;
+      overflow-x: hidden;
+    }
+
+    .video, iframe{
+        position:fixed;
+        top:350px;
+        left:37.5px;
+        min-width:10%;
+        min-height:10%;
+        width:320px;
+        height:180px;
+        border-radius: 7px;
+    }
+  
+    .footer, #license-text{
+        position:relative;
+        top:-200px;
+        left:-12.5px;
+        font-size:10px;
+    }
+}
