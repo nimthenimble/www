@@ -133,10 +133,10 @@ a{
 }
 
 /*iPhone 16*/
-@media screen and (max-width: 852px){
+@media screen and (min-width: 800px){
     body {
+    overflow-x: visible;
       overflow-y:visible;
-      overflow-x: visible;
     }
 
     .video, iframe{
