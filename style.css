@@ -105,8 +105,8 @@ a{
 
 @media screen and (max-width: 480px){
     body {
-      overflow-y:hidden;
-      overflow-x: hidden;
+      overflow-y:visible;
+      overflow-x: visible;
     }
 
     .data{
