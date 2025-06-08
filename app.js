@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Download CV
     document.getElementById('download-cv')?.addEventListener('click', function() {
         const link = document.createElement('a');
-        link.href = 'downloads/CV-Hugo-Urías.pdf';
+        link.href = 'downloads/CV-Hugo-Urias.pdf';
         link.download = 'CV-Hugo-Urias.pdf';
         link.click();
     });
