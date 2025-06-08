@@ -1,16 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
-    // Download CV
+    // Redirect to GitHub CV on click
     document.getElementById('download-cv')?.addEventListener('click', function() {
-        const link = document.createElement('a');
-        link.href = 'downloads/CV.pdf';
-        link.download = 'Hugo_Urias_CV.pdf'; 
-        document.body.appendChild(link); 
-        link.click();
-        document.body.removeChild(link); 
-
-        setTimeout(() => {
-            window.location.href = 'https://github.com/nimthenimble/www/blob/main/downloads/CV.pdf';
-        }, 100);
+        window.location.href = 'https://github.com/nimthenimble/www/blob/main/downloads/CV.pdf';
     });
 
     // Download Recommendation Letter Amjad
